@@ -8,7 +8,6 @@
 
 export const ADD_TO_TOTAL = "ADD_TO_TOTAL";
 export const REMOVE_FROM_TOTAL = "REMOVE_FROM_TOTAL";
-export const UPDATE_TOTAL = "UPDATE_TOTAL";
 
 const addToTotal = (totalId) => {
   return { type: ADD_TO_TOTAL, payload: totalId };
